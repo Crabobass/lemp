@@ -1,0 +1,3 @@
+docker exec -it project_name-phpfpm sh #войти в контейнер
+
+docker exec project_name-nginx nginx -s reload #для отладки
